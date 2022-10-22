@@ -22,44 +22,50 @@
             </fieldset>
             <table>
                 <tr>
-                    <td rowspan="3" style="width: 400px;"><img src="macbook_air.jpg" height="200" alt="poto"></td>
+                    <td rowspan="5" style="width: 400px;"><img src="macbook_air.jpg" height="200" alt="poto"></td>
                     <td>
-                        <label for="tittle">Tittle Here</label>
+                        Tittle Here
                     </td>
                     <td>:</td>
                     <td>
-                        <input type="text" id="tittle" value="MacBook Air €800">
+                        MacBook Air €800
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <label for="description">Description</label>
-                    </td>
+                    <td>Description</td>
                     <td>:</td>
-                    <td>
-                        <textarea name="description" cols="20" rows="5" value="Year : 2009"></textarea>
-                    </td>
+                    <td>Year : 2009</td>
                 </tr>
                 <tr>
-                    <td>
-                        <label for="account">Account Number</label>
-                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>Model :</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Condition : Mint</td>
+                </tr>
+                <tr>
+                    <td>Total Amount</td>
                     <td>:</td>
-                    <td>
-                        <input type="text" id="account" value="123-456-789-0">
-                    </td>
+                    <td>€800</td>
                 </tr>
                 <tr>
+                    <td></td>
+                    <td>Pay to</td>
+                    <td>:</td>
+                    <td>123-456-789-0</td>
+                </tr>
+                <tr>
+                    <td></td>
                     <td>
-                        <input type="file" name="Upload Picture" id="file">
-                    </td>
-                    <td>
-                        <label for="bank">Bank</label>
+                        <label for="bank">Payment Type</label>
                     </td>
                     <td>:</td>
                     <td>
                         <select name="bank" id="bank">
-                            <option value="HSBC">HSBC</option>
+                            <option value="HSBC">Visa Debit</option>
                             <option value="BCA">BCA</option>
                             <option value="BRI">BRI</option>
                             <option value="MANDIRI">MANDIRI</option>
@@ -79,35 +85,20 @@
                 <tr>
                     <td></td>
                     <td>
-                        <label for="transaction">Transaction</label>
+                        <label for="account-no">Account No</label>
                     </td>
                     <td>:</td>
                     <td>
-                        <select name="number" id="transaction">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                        </select>
+                        <input type="text" id="account-no" value="123-456-789-0">
                     </td>
+                </tr>   
+                <tr>
+                    <td colspan="3"></td>
+                    <td><input type="checkbox" checked>Send to Mobile Phone</td>
                 </tr>
                 <tr>
                     <td colspan="3"></td>
-                    <td>*if the transaction is for 3 person, choose 3 from the drop-down list</td>
-                </tr>
-                <tr>
-                    <td colspan="3"></td>
-                    <td><input type="checkbox">Send to Mobile Phone</td>
-                </tr>
-                <tr>
-                    <td colspan="3"></td>
-                    <td><input type="checkbox" name="" id="">Send to Email</td>
+                    <td><input type="checkbox" name="" id="" checked>Send to Email</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -130,12 +121,12 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="4"><br></td>
+                    <td colspan="4"><br><br><br></td>
                 </tr>
                 <tr>
                     <td colspan="3"></td>
                     <td>
-                        <input type="submit" value="Generate Nabr Link" style="background-color: rgb(30, 187, 30); color: white;">
+                        <input type="submit" value="Pay using QuidLink" style="background-color: rgb(30, 187, 30); color: white;">
                     </td>
                 </tr>
             </fieldset>
