@@ -1,0 +1,52 @@
+.atas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1{
+    width: 200Px;
+    height: 140px;
+    background-color: #f4eb49;
+    border: 2px solid #000;
+}
+
+.box2{
+    width: 83%;
+    background-color: #ff6624;
+    border: 2px solid #000;
+}
+
+.tengah{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.box3{
+    width: 200px;
+    height: 400px;
+    background-color: #aedd94;
+    border: 2px solid #000;
+}
+
+.box4{
+    width: 68%;
+    height: 400px;
+    background-color: grey;
+    border: 2px solid #000;
+}
+
+.box5{
+    width: 200px;
+    height: 400px;
+    background-color: #4dd7fa;
+    border: 2px solid #000;
+}
+
+.box6{
+    width: 97%;
+    height: 140px;
+    background-color: blue;
+    border: 2px solid #000;
+    margin: 19px;
+}
